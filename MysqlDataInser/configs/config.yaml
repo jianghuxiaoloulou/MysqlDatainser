@@ -1,0 +1,12 @@
+﻿General:
+  LogSavePath: storage/logs
+  LogFileName: log
+  LogFileExt: .log
+  LogMaxSize: 60
+  LogMaxAge: 7
+Database:
+  # 树兰安吉医院：espacs:Espacs@2020@tcp(172.16.0.7:3306)/espacs?charset=utf8
+  DBConn: espacs:espacs@2017@tcp(10.20.32.212:31967)/espacs?charset=utf8
+  DBType: mysql
+  MaxIdleConns: 100
+  MaxOpenConns: 100
